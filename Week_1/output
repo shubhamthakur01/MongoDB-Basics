@@ -1,0 +1,84 @@
+MongoDB shell version v4.0.3
+connecting to: mongodb://127.0.0.1:27017
+2022-01-28T22:24:55.349-0800 I CONTROL  [js] machdep.cpu.extfeatures unavailable
+Implicit session: session { "id" : UUID("d6c65550-75ee-45db-9ea8-001281875582") }
+MongoDB server version: 4.0.3
+{
+	"address" : {
+		"building" : "1269",
+		"coord" : [
+			-73.871194,
+			40.6730975
+		],
+		"street" : "Sutter Avenue",
+		"zipcode" : "11208"
+	},
+	"borough" : "Brooklyn",
+	"cuisine" : "Korean",
+	"name" : "Diane's Kitchen",
+	"restaurant_id" : "000001"
+}
+switched to db msds697
+WriteResult({ "nInserted" : 1 })
+{ "acknowledged" : true, "matchedCount" : 25360, "modifiedCount" : 25360 }
+{ "acknowledged" : true, "matchedCount" : 25360, "modifiedCount" : 25360 }
+{ "acknowledged" : true, "matchedCount" : 25360, "modifiedCount" : 25360 }
+{
+	"address" : {
+		"building" : "1269",
+		"coord" : [
+			-73.871194,
+			40.6730975
+		],
+		"street" : "Sutter Avenue",
+		"zipcode" : "11208"
+	},
+	"cuisine" : "Chinese",
+	"grades" : [
+		{
+			"date" : ISODate("2014-09-16T00:00:00Z"),
+			"grade" : "B",
+			"score" : 21
+		},
+		{
+			"date" : ISODate("2013-08-28T00:00:00Z"),
+			"grade" : "A",
+			"score" : 7
+		},
+		{
+			"date" : ISODate("2013-04-02T00:00:00Z"),
+			"grade" : "C",
+			"score" : 56
+		},
+		{
+			"date" : ISODate("2012-08-15T00:00:00Z"),
+			"grade" : "B",
+			"score" : 27
+		},
+		{
+			"date" : ISODate("2012-03-28T00:00:00Z"),
+			"grade" : "B",
+			"score" : 27
+		}
+	],
+	"name" : "May May Kitchen",
+	"validated" : true,
+	"district" : "Brooklyn"
+}
+{
+	"address" : {
+		"building" : "1269",
+		"coord" : [
+			-73.871194,
+			40.6730975
+		],
+		"street" : "Sutter Avenue",
+		"zipcode" : "11208"
+	},
+	"cuisine" : "Korean",
+	"name" : "Diane's Kitchen",
+	"validated" : true,
+	"district" : "Brooklyn"
+}
+true
+bye

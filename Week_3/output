@@ -1,0 +1,3812 @@
+MongoDB shell version v4.0.3
+connecting to: mongodb://127.0.0.1:27017
+Implicit session: session { "id" : UUID("51bac56f-0993-4223-aa27-a809220ae5c9") }
+MongoDB server version: 4.0.3
+switched to db msds697
+{ "min" : -1, "max" : 131 }
+{ "count" : 6183, "cuisine" : "American " }
+{ "count" : 2418, "cuisine" : "Chinese" }
+{ "count" : 1214, "cuisine" : "Café/Coffee/Tea" }
+{ "count" : 1163, "cuisine" : "Pizza" }
+{ "count" : 1069, "cuisine" : "Italian" }
+{
+	"address_list" : [
+		{
+			"building" : "250",
+			"coord" : [
+				-74.0032124,
+				40.7485943
+			],
+			"street" : "10 Avenue",
+			"zipcode" : "10001"
+		},
+		{
+			"building" : "250",
+			"coord" : [
+				-74.0032124,
+				40.7485943
+			],
+			"street" : "10Th Ave",
+			"zipcode" : "10001"
+		},
+		{
+			"building" : "401",
+			"coord" : [
+				-73.99564099999999,
+				40.749688
+			],
+			"street" : "8 Avenue",
+			"zipcode" : "10001"
+		},
+		{
+			"building" : "173",
+			"coord" : [
+				-73.9938875,
+				40.7458452
+			],
+			"street" : "West   26 Street",
+			"zipcode" : "10001"
+		},
+		{
+			"building" : "156",
+			"coord" : [
+				-73.9923878,
+				40.7473778
+			],
+			"street" : "West   29 Street",
+			"zipcode" : "10001"
+		},
+		{
+			"building" : "35",
+			"coord" : [
+				-73.986822,
+				40.748773
+			],
+			"street" : "West   33 Street",
+			"zipcode" : "10001"
+		},
+		{
+			"building" : "367",
+			"coord" : [
+				-73.9957968,
+				40.7534587
+			],
+			"street" : "West   34 Street",
+			"zipcode" : "10001"
+		},
+		{
+			"building" : "455",
+			"coord" : [
+				-73.998344,
+				40.75458649999999
+			],
+			"street" : "West   34 Street",
+			"zipcode" : "10001"
+		},
+		{
+			"building" : "2",
+			"coord" : [
+				-73.98505639999999,
+				40.7492649
+			],
+			"street" : "West   35 Street",
+			"zipcode" : "10001"
+		},
+		{
+			"building" : "224",
+			"coord" : [
+				-73.991309,
+				40.75190600000001
+			],
+			"street" : "West   35 Street",
+			"zipcode" : "10001"
+		},
+		{
+			"building" : "229",
+			"coord" : [
+				-73.9915018,
+				40.7233295
+			],
+			"street" : "Chrystie Street",
+			"zipcode" : "10002"
+		},
+		{
+			"building" : "6466",
+			"coord" : [
+				-73.98432919999999,
+				40.717456
+			],
+			"street" : "Delancy Street",
+			"zipcode" : "10002"
+		},
+		{
+			"building" : "250",
+			"coord" : [
+				-73.98519780000001,
+				40.7221462
+			],
+			"street" : "East Houston Street",
+			"zipcode" : "10002"
+		},
+		{
+			"building" : "153",
+			"coord" : [
+				-73.987291,
+				40.720863
+			],
+			"street" : "Essex Street",
+			"zipcode" : "10002"
+		},
+		{
+			"building" : "334",
+			"coord" : [
+				-73.9899792,
+				40.7171935
+			],
+			"street" : "Grand Street",
+			"zipcode" : "10002"
+		},
+		{
+			"building" : "227",
+			"coord" : [
+				-73.98314599999999,
+				40.73106600000001
+			],
+			"street" : "1 Avenue",
+			"zipcode" : "10003"
+		},
+		{
+			"building" : "317",
+			"coord" : [
+				-73.9808539,
+				40.734158
+			],
+			"street" : "1 Avenue",
+			"zipcode" : "10003"
+		},
+		{
+			"building" : "153",
+			"coord" : [
+				-73.9862759,
+				40.7341042
+			],
+			"street" : "3 Avenue",
+			"zipcode" : "10003"
+		},
+		{
+			"building" : "41",
+			"coord" : [
+				-73.9888465,
+				40.7303997
+			],
+			"street" : "3 Avenue",
+			"zipcode" : "10003"
+		},
+		{
+			"building" : "120",
+			"coord" : [
+				-73.9902436,
+				40.7330035
+			],
+			"street" : "4 Avenue",
+			"zipcode" : "10003"
+		},
+		{
+			"building" : "247",
+			"coord" : [
+				-73.9850992,
+				40.7326263
+			],
+			"street" : "East   14 Street",
+			"zipcode" : "10003"
+		},
+		{
+			"building" : "7",
+			"coord" : [
+				-73.9925837,
+				40.7358334
+			],
+			"street" : "East   14 Street",
+			"zipcode" : "10003"
+		},
+		{
+			"building" : "1",
+			"coord" : [
+				-73.9892251,
+				40.7348753
+			],
+			"street" : "Irving Place",
+			"zipcode" : "10003"
+		},
+		{
+			"building" : "30",
+			"coord" : [
+				-74.01153459999999,
+				40.7061121
+			],
+			"street" : "Broad Street",
+			"zipcode" : "10004"
+		},
+		{
+			"building" : "11",
+			"coord" : [
+				-74.0139114,
+				40.7053128
+			],
+			"street" : "Broadway",
+			"zipcode" : "10004"
+		},
+		{
+			"building" : "28",
+			"coord" : [
+				-74.0110885,
+				40.7032752
+			],
+			"street" : "Water Street",
+			"zipcode" : "10004"
+		},
+		{
+			"building" : "122",
+			"coord" : [
+				-74.007334,
+				40.70554
+			],
+			"street" : "Water Street",
+			"zipcode" : "10005"
+		},
+		{
+			"building" : "106",
+			"coord" : [
+				-74.0135268,
+				40.7085198
+			],
+			"street" : "Greenwich Street",
+			"zipcode" : "10006"
+		},
+		{
+			"building" : "250",
+			"coord" : [
+				-74.00780019999999,
+				40.7129744
+			],
+			"street" : "Broadway",
+			"zipcode" : "10007"
+		},
+		{
+			"building" : "153",
+			"coord" : [
+				-74.0099578,
+				40.7159798
+			],
+			"street" : "Chambers Street",
+			"zipcode" : "10007"
+		},
+		{
+			"building" : "165",
+			"coord" : [
+				-74.0075402,
+				40.7151466
+			],
+			"street" : "Church Street",
+			"zipcode" : "10007"
+		},
+		{
+			"building" : "51",
+			"coord" : [
+				-74.00951599999999,
+				40.7143257
+			],
+			"street" : "Murray Street",
+			"zipcode" : "10007"
+		},
+		{
+			"building" : "108",
+			"coord" : [
+				-73.98570699999999,
+				40.726576
+			],
+			"street" : "1 Avenue",
+			"zipcode" : "10009"
+		},
+		{
+			"building" : "108",
+			"coord" : [
+				-73.98570699999999,
+				40.726576
+			],
+			"street" : "1St Ave",
+			"zipcode" : "10009"
+		},
+		{
+			"building" : "223",
+			"coord" : [
+				-73.9781102,
+				40.72898440000001
+			],
+			"street" : "Avenue B",
+			"zipcode" : "10009"
+		},
+		{
+			"building" : "421",
+			"coord" : [
+				-73.9805403,
+				40.7389145
+			],
+			"street" : "2 Avenue",
+			"zipcode" : "10010"
+		},
+		{
+			"building" : "1123",
+			"coord" : [
+				-73.9891107,
+				40.7434614
+			],
+			"street" : "Broadway",
+			"zipcode" : "10010"
+		},
+		{
+			"building" : "32",
+			"coord" : [
+				-73.987678,
+				40.740434
+			],
+			"street" : "East 23 Street",
+			"zipcode" : "10010"
+		},
+		{
+			"building" : "61",
+			"coord" : [
+				-73.9835112,
+				40.7408627
+			],
+			"street" : "Lexington Avenue",
+			"zipcode" : "10010"
+		},
+		{
+			"building" : "62",
+			"coord" : [
+				-73.993049,
+				40.74187999999999
+			],
+			"street" : "West   22 Street",
+			"zipcode" : "10010"
+		},
+		{
+			"building" : "221",
+			"coord" : [
+				-73.9957448,
+				40.7439654
+			],
+			"street" : "7 Avenue",
+			"zipcode" : "10011"
+		},
+		{
+			"building" : "37",
+			"coord" : [
+				-74.0000374,
+				40.7376031
+			],
+			"street" : "7 Avenue",
+			"zipcode" : "10011"
+		},
+		{
+			"building" : "141",
+			"coord" : [
+				-74.0011749,
+				40.7416347
+			],
+			"street" : "8 Avenue",
+			"zipcode" : "10011"
+		},
+		{
+			"building" : "220",
+			"coord" : [
+				-73.9990803,
+				40.7440623
+			],
+			"street" : "8 Avenue",
+			"zipcode" : "10011"
+		},
+		{
+			"building" : "47",
+			"coord" : [
+				-73.99572400000001,
+				40.737207
+			],
+			"street" : "West   14 Street",
+			"zipcode" : "10011"
+		},
+		{
+			"building" : "244246",
+			"coord" : [
+				-74.001294,
+				40.7389179
+			],
+			"street" : "West 14 Street",
+			"zipcode" : "10011"
+		},
+		{
+			"building" : "342",
+			"coord" : [
+				-73.992203,
+				40.726241
+			],
+			"street" : "Bowery",
+			"zipcode" : "10012"
+		},
+		{
+			"building" : "550",
+			"coord" : [
+				-73.99832049999999,
+				40.7291015
+			],
+			"street" : "Laguardia Place",
+			"zipcode" : "10012"
+		},
+		{
+			"building" : "510",
+			"coord" : [
+				-74.0033022,
+				40.7235057
+			],
+			"street" : "Broome St",
+			"zipcode" : "10013"
+		},
+		{
+			"building" : "297",
+			"coord" : [
+				-74.004308,
+				40.71917699999999
+			],
+			"street" : "Church Street",
+			"zipcode" : "10013"
+		},
+		{
+			"building" : "137",
+			"coord" : [
+				-74.0087411,
+				40.720859
+			],
+			"street" : "Hudson Street",
+			"zipcode" : "10013"
+		},
+		{
+			"building" : "113",
+			"coord" : [
+				-74.0004782,
+				40.7181456
+			],
+			"street" : "Lafayette Street",
+			"zipcode" : "10013"
+		},
+		{
+			"building" : "90",
+			"coord" : [
+				-74.00492559999999,
+				40.7161935
+			],
+			"street" : "Worth Street",
+			"zipcode" : "10013"
+		},
+		{
+			"building" : "170",
+			"coord" : [
+				-74.00174919999999,
+				40.7355025
+			],
+			"street" : "7 Avenue South",
+			"zipcode" : "10014"
+		},
+		{
+			"building" : "228",
+			"coord" : [
+				-74.004959,
+				40.7287582
+			],
+			"street" : "West Houston Street",
+			"zipcode" : "10014"
+		},
+		{
+			"building" : "577",
+			"coord" : [
+				-73.9772756,
+				40.74341889999999
+			],
+			"street" : "2 Avenue",
+			"zipcode" : "10016"
+		},
+		{
+			"building" : "739",
+			"coord" : [
+				-73.97367,
+				40.748395
+			],
+			"street" : "2 Avenue",
+			"zipcode" : "10016"
+		},
+		{
+			"building" : "371",
+			"coord" : [
+				-73.981301,
+				40.7411244
+			],
+			"street" : "3 Avenue",
+			"zipcode" : "10016"
+		},
+		{
+			"building" : "48991",
+			"coord" : [
+				-73.9811847,
+				40.7465582
+			],
+			"street" : "3 Avenue",
+			"zipcode" : "10016"
+		},
+		{
+			"building" : "581",
+			"coord" : [
+				-73.9759813,
+				40.7482465
+			],
+			"street" : "3 Avenue",
+			"zipcode" : "10016"
+		},
+		{
+			"building" : "261",
+			"coord" : [
+				-73.98669869999999,
+				40.74500219999999
+			],
+			"street" : "5 Avenue",
+			"zipcode" : "10016"
+		},
+		{
+			"building" : "437",
+			"coord" : [
+				-73.983054,
+				40.7442629
+			],
+			"street" : "Park Avenue South",
+			"zipcode" : "10016"
+		},
+		{
+			"building" : "834",
+			"coord" : [
+				-73.97076400000002,
+				40.7513239
+			],
+			"street" : "2 Avenue",
+			"zipcode" : "10017"
+		},
+		{
+			"building" : "716",
+			"coord" : [
+				-73.9733779,
+				40.7525998
+			],
+			"street" : "3 Avenue",
+			"zipcode" : "10017"
+		},
+		{
+			"building" : "8",
+			"coord" : [
+				-73.9808681,
+				40.7523419
+			],
+			"street" : "East   41 Street",
+			"zipcode" : "10017"
+		},
+		{
+			"building" : "151",
+			"coord" : [
+				-73.97427239999999,
+				40.7516937
+			],
+			"street" : "East   43 Street",
+			"zipcode" : "10017"
+		},
+		{
+			"building" : "370",
+			"coord" : [
+				-81.22236939999999,
+				33.9925432
+			],
+			"street" : "Lexington Ave Lbby",
+			"zipcode" : "10017"
+		},
+		{
+			"building" : "512",
+			"coord" : [
+				-73.9892156,
+				40.75342149999999
+			],
+			"street" : "7 Avenue",
+			"zipcode" : "10018"
+		},
+		{
+			"building" : "525",
+			"coord" : [
+				-73.9926363,
+				40.7538399
+			],
+			"street" : "8 Avenue",
+			"zipcode" : "10018"
+		},
+		{
+			"building" : "612",
+			"coord" : [
+				-73.9906117,
+				40.7555253
+			],
+			"street" : "8 Avenue",
+			"zipcode" : "10018"
+		},
+		{
+			"building" : "520",
+			"coord" : [
+				-73.9938619,
+				40.756283
+			],
+			"street" : "9 Avenue",
+			"zipcode" : "10018"
+		},
+		{
+			"building" : "1400",
+			"coord" : [
+				-73.98702279999999,
+				40.7529687
+			],
+			"street" : "Broadway",
+			"zipcode" : "10018"
+		},
+		{
+			"building" : "32",
+			"coord" : [
+				-73.9839689,
+				40.7520904
+			],
+			"street" : "West   39 Street",
+			"zipcode" : "10018"
+		},
+		{
+			"building" : "747",
+			"coord" : [
+				-73.99191069999999,
+				40.7652053
+			],
+			"street" : "10 Avenue",
+			"zipcode" : "10019"
+		},
+		{
+			"building" : "735",
+			"coord" : [
+				-73.9940187,
+				40.7671297
+			],
+			"street" : "11 Avenue",
+			"zipcode" : "10019"
+		},
+		{
+			"building" : "873",
+			"coord" : [
+				-73.9804846,
+				40.7645475
+			],
+			"street" : "7 Avenue",
+			"zipcode" : "10019"
+		},
+		{
+			"building" : "1285",
+			"coord" : [
+				-73.9802208,
+				40.760996
+			],
+			"street" : "Avenue Of Americas",
+			"zipcode" : "10019"
+		},
+		{
+			"building" : "214",
+			"coord" : [
+				-73.9848465,
+				40.7614796
+			],
+			"street" : "West   50 Street",
+			"zipcode" : "10019"
+		},
+		{
+			"building" : "314",
+			"coord" : [
+				-73.98334969999999,
+				40.76756049999999
+			],
+			"street" : "West   58 Street",
+			"zipcode" : "10019"
+		},
+		{
+			"building" : "250",
+			"coord" : [
+				-73.9836013,
+				40.7642999
+			],
+			"street" : "West 54 Street",
+			"zipcode" : "10019"
+		},
+		{
+			"building" : "42",
+			"coord" : [
+				-73.97661699999999,
+				40.762948
+			],
+			"street" : "West 56 Street",
+			"zipcode" : "10019"
+		},
+		{
+			"building" : "130",
+			"coord" : [
+				-73.977981,
+				40.765288
+			],
+			"street" : "West 58 Street",
+			"zipcode" : "10019"
+		},
+		{
+			"building" : "1411",
+			"coord" : [
+				-73.95785699999999,
+				40.7699336
+			],
+			"street" : "2 Avenue",
+			"zipcode" : "10021"
+		},
+		{
+			"building" : "1427",
+			"coord" : [
+				-73.9523619,
+				40.769309
+			],
+			"street" : "York Avenue",
+			"zipcode" : "10021"
+		},
+		{
+			"building" : "926",
+			"coord" : [
+				-73.9685492,
+				40.7542919
+			],
+			"street" : "2 Avenue",
+			"zipcode" : "10022"
+		},
+		{
+			"building" : "163",
+			"coord" : [
+				-73.9701338,
+				40.7573807
+			],
+			"street" : "East   52 Street",
+			"zipcode" : "10022"
+		},
+		{
+			"building" : "949",
+			"coord" : [
+				-73.96511939999999,
+				40.75532949999999
+			],
+			"street" : "First Avenue",
+			"zipcode" : "10022"
+		},
+		{
+			"building" : "692",
+			"coord" : [
+				-73.96944049999999,
+				40.7607723
+			],
+			"street" : "Lexington Avenue",
+			"zipcode" : "10022"
+		},
+		{
+			"building" : "321",
+			"coord" : [
+				-73.9798589,
+				40.7806195
+			],
+			"street" : "Amsterdam Avenue",
+			"zipcode" : "10023"
+		},
+		{
+			"building" : "2039",
+			"coord" : [
+				-73.98286829999999,
+				40.777877
+			],
+			"street" : "Broadway",
+			"zipcode" : "10023"
+		},
+		{
+			"building" : "33",
+			"coord" : [
+				-73.9901478,
+				40.7733326
+			],
+			"street" : "West End Avenue",
+			"zipcode" : "10023"
+		},
+		{
+			"building" : "33",
+			"coord" : [
+				-73.9901478,
+				40.7733326
+			],
+			"street" : "West End Avenue",
+			"zipcode" : "10023"
+		},
+		{
+			"building" : "508",
+			"coord" : [
+				-73.9731151,
+				40.7856285
+			],
+			"street" : "Columbus Avenue",
+			"zipcode" : "10024"
+		},
+		{
+			"building" : "971",
+			"coord" : [
+				-73.964618,
+				40.801388
+			],
+			"street" : "Amsterdam Ave",
+			"zipcode" : "10025"
+		},
+		{
+			"building" : "971",
+			"coord" : [
+				-73.964618,
+				40.801388
+			],
+			"street" : "Amsterdam Avenue",
+			"zipcode" : "10025"
+		},
+		{
+			"building" : "2508",
+			"coord" : [
+				-73.9727279,
+				40.7928619
+			],
+			"street" : "Broadway",
+			"zipcode" : "10025"
+		},
+		{
+			"building" : "2699",
+			"coord" : [
+				-73.9689554,
+				40.7991184
+			],
+			"street" : "Broadway",
+			"zipcode" : "10025"
+		},
+		{
+			"building" : "2825",
+			"coord" : [
+				-73.967544,
+				40.8036242
+			],
+			"street" : "Broadway",
+			"zipcode" : "10025"
+		},
+		{
+			"building" : "731",
+			"coord" : [
+				-73.96738189999999,
+				40.792522
+			],
+			"street" : "Columbus Avenue",
+			"zipcode" : "10025"
+		},
+		{
+			"building" : "301",
+			"coord" : [
+				-73.9586478,
+				40.8008307
+			],
+			"street" : "Cathedral Parkway",
+			"zipcode" : "10026"
+		},
+		{
+			"building" : "111",
+			"coord" : [
+				-73.952614,
+				40.7988339
+			],
+			"street" : "Central Park North",
+			"zipcode" : "10026"
+		},
+		{
+			"building" : "2165",
+			"coord" : [
+				-73.9550984,
+				40.8048207
+			],
+			"street" : "Frederick Douglass Boulevard",
+			"zipcode" : "10026"
+		},
+		{
+			"building" : "1270",
+			"coord" : [
+				-73.9583293,
+				40.8112149
+			],
+			"street" : "Amsterdam Avenue",
+			"zipcode" : "10027"
+		},
+		{
+			"building" : "348",
+			"coord" : [
+				-73.94395420000001,
+				40.8092046
+			],
+			"street" : "Malcolm X Boulevard",
+			"zipcode" : "10027"
+		},
+		{
+			"building" : "281",
+			"coord" : [
+				-73.9533019,
+				40.8103619
+			],
+			"street" : "Saint Nicholas Ave",
+			"zipcode" : "10027"
+		},
+		{
+			"building" : "578",
+			"coord" : [
+				-73.95816549999999,
+				40.81512
+			],
+			"street" : "West  125 Street",
+			"zipcode" : "10027"
+		},
+		{
+			"building" : "1661",
+			"coord" : [
+				-73.949361,
+				40.777384
+			],
+			"street" : "1 Avenue",
+			"zipcode" : "10028"
+		},
+		{
+			"building" : "1613",
+			"coord" : [
+				-73.9531148,
+				40.7764372
+			],
+			"street" : "2 Avenue",
+			"zipcode" : "10028"
+		},
+		{
+			"building" : "1205",
+			"coord" : [
+				-73.95737,
+				40.776638
+			],
+			"street" : "Lexington Avenue",
+			"zipcode" : "10028"
+		},
+		{
+			"building" : "1256",
+			"coord" : [
+				-73.9564228,
+				40.7787097
+			],
+			"street" : "Lexington Avenue",
+			"zipcode" : "10028"
+		},
+		{
+			"building" : "1523",
+			"coord" : [
+				-73.9499706,
+				40.7725726
+			],
+			"street" : "York Avenue",
+			"zipcode" : "10028"
+		},
+		{
+			"building" : "1873",
+			"coord" : [
+				-73.94707989999999,
+				40.7847818
+			],
+			"street" : "2 Avenue",
+			"zipcode" : "10029"
+		},
+		{
+			"building" : "1885",
+			"coord" : [
+				-73.9452,
+				40.79028
+			],
+			"street" : "3 Avenue",
+			"zipcode" : "10029"
+		},
+		{
+			"building" : "201",
+			"coord" : [
+				-73.9396701,
+				40.797999
+			],
+			"street" : "East  116 Street",
+			"zipcode" : "10029"
+		},
+		{
+			"building" : "455",
+			"coord" : [
+				-73.9332029,
+				40.7953386
+			],
+			"street" : "East  116 Street",
+			"zipcode" : "10029"
+		},
+		{
+			"building" : "1392",
+			"coord" : [
+				-73.9540998,
+				40.7877671
+			],
+			"street" : "Madison Avenue",
+			"zipcode" : "10029"
+		},
+		{
+			"building" : "300",
+			"coord" : [
+				-73.94725749999999,
+				40.8165433
+			],
+			"street" : "West  135 Street",
+			"zipcode" : "10030"
+		},
+		{
+			"building" : "1518",
+			"coord" : [
+				-73.95267059999999,
+				40.8189025
+			],
+			"street" : "Amsterdam Avenue",
+			"zipcode" : "10031"
+		},
+		{
+			"building" : "3419",
+			"coord" : [
+				-73.9535463,
+				40.8226562
+			],
+			"street" : "Broadway",
+			"zipcode" : "10031"
+		},
+		{
+			"building" : "3559",
+			"coord" : [
+				-73.95018739999999,
+				40.8270218
+			],
+			"street" : "Broadway",
+			"zipcode" : "10031"
+		},
+		{
+			"building" : "344",
+			"coord" : [
+				-73.94410130000001,
+				40.8237544
+			],
+			"street" : "West 145 Street",
+			"zipcode" : "10031"
+		},
+		{
+			"building" : "3920",
+			"coord" : [
+				-73.9410575,
+				40.8384568
+			],
+			"street" : "Broadway",
+			"zipcode" : "10032"
+		},
+		{
+			"building" : "4227",
+			"coord" : [
+				-73.9370314,
+				40.8492494
+			],
+			"street" : "Broadway",
+			"zipcode" : "10033"
+		},
+		{
+			"building" : "1264",
+			"coord" : [
+				-73.9370799,
+				40.84432109999999
+			],
+			"street" : "Saint Nicholas Avenue",
+			"zipcode" : "10033"
+		},
+		{
+			"building" : "1502",
+			"coord" : [
+				-73.931637,
+				40.8517706
+			],
+			"street" : "Saint Nicholas Avenue",
+			"zipcode" : "10033"
+		},
+		{
+			"building" : "579",
+			"coord" : [
+				-73.9330888,
+				40.849294
+			],
+			"street" : "West  181 Street",
+			"zipcode" : "10033"
+		},
+		{
+			"building" : "595",
+			"coord" : [
+				-73.9205039,
+				40.86729769999999
+			],
+			"street" : "West  207 Street",
+			"zipcode" : "10034"
+		},
+		{
+			"building" : "21",
+			"coord" : [
+				-73.94399419999999,
+				40.8014702
+			],
+			"street" : "East  118 Street",
+			"zipcode" : "10035"
+		},
+		{
+			"building" : "2085",
+			"coord" : [
+				-73.936858,
+				40.8047803
+			],
+			"street" : "Lexington Avenue",
+			"zipcode" : "10035"
+		},
+		{
+			"building" : "1752",
+			"coord" : [
+				-73.9409728,
+				40.8031606
+			],
+			"street" : "Park Avenue",
+			"zipcode" : "10035"
+		},
+		{
+			"building" : "561",
+			"coord" : [
+				-73.9961584,
+				40.7593166
+			],
+			"street" : "10 Avenue",
+			"zipcode" : "10036"
+		},
+		{
+			"building" : "126",
+			"coord" : [
+				-73.9858728,
+				40.7545549
+			],
+			"street" : "West   41 Street",
+			"zipcode" : "10036"
+		},
+		{
+			"building" : "351",
+			"coord" : [
+				-73.99179199999999,
+				40.758391
+			],
+			"street" : "West   42 Street",
+			"zipcode" : "10036"
+		},
+		{
+			"building" : "351",
+			"coord" : [
+				-73.99179199999999,
+				40.758391
+			],
+			"street" : "West   42 Street",
+			"zipcode" : "10036"
+		},
+		{
+			"building" : "555",
+			"coord" : [
+				-73.9977956,
+				40.76083149999999
+			],
+			"street" : "West   42 Street",
+			"zipcode" : "10036"
+		},
+		{
+			"building" : "31",
+			"coord" : [
+				-73.98189099999999,
+				40.75495129999999
+			],
+			"street" : "West   43 Street",
+			"zipcode" : "10036"
+		},
+		{
+			"building" : "36",
+			"coord" : [
+				-73.9808149,
+				40.7565934
+			],
+			"street" : "West   46 Street",
+			"zipcode" : "10036"
+		},
+		{
+			"building" : "150",
+			"coord" : [
+				-73.9838036,
+				40.7587108
+			],
+			"street" : "West   47 Street",
+			"zipcode" : "10036"
+		},
+		{
+			"building" : "563",
+			"coord" : [
+				-73.9392905,
+				40.8164177
+			],
+			"street" : "Lenox Avenue",
+			"zipcode" : "10037"
+		},
+		{
+			"building" : "45",
+			"coord" : [
+				-74.0055055,
+				40.7101506
+			],
+			"street" : "Beekman Street",
+			"zipcode" : "10038"
+		},
+		{
+			"building" : "23",
+			"coord" : [
+				-74.00895469999999,
+				40.7093329
+			],
+			"street" : "Maiden Lane",
+			"zipcode" : "10038"
+		},
+		{
+			"building" : "180",
+			"coord" : [
+				-73.92687169999999,
+				40.8642916
+			],
+			"street" : "Dyckman Street",
+			"zipcode" : "10040"
+		},
+		{
+			"building" : "513",
+			"coord" : [
+				-73.95091409999999,
+				40.7611092
+			],
+			"street" : "Main Street",
+			"zipcode" : "10044"
+		},
+		{
+			"building" : "900",
+			"coord" : [
+				-73.94246729999999,
+				40.7703199
+			],
+			"street" : "Main Street",
+			"zipcode" : "10044"
+		},
+		{
+			"building" : "1269",
+			"coord" : [
+				-73.95796059999999,
+				40.7655954
+			],
+			"street" : "1 Avenue",
+			"zipcode" : "10065"
+		},
+		{
+			"building" : "1171",
+			"coord" : [
+				-73.96337989999999,
+				40.7623739
+			],
+			"street" : "2 Avenue",
+			"zipcode" : "10065"
+		},
+		{
+			"building" : "1501",
+			"coord" : [
+				-73.95326539999999,
+				40.7719867
+			],
+			"street" : "1 Avenue",
+			"zipcode" : "10075"
+		},
+		{
+			"building" : "666",
+			"coord" : [
+				-73.9766459,
+				40.7602745
+			],
+			"street" : "5 Avenue",
+			"zipcode" : "10103"
+		},
+		{
+			"building" : "30",
+			"coord" : [
+				-73.9793564,
+				40.7589426
+			],
+			"street" : "Rockerfeller Plaza",
+			"zipcode" : "10112"
+		},
+		{
+			"building" : "1",
+			"coord" : [
+				-73.992471,
+				40.7511286
+			],
+			"street" : "Penn Plaza",
+			"zipcode" : "10119"
+		},
+		{
+			"building" : "1776",
+			"coord" : [
+				-73.94841319999999,
+				40.7819184
+			],
+			"street" : "2 Avenue",
+			"zipcode" : "10128"
+		},
+		{
+			"building" : "1434",
+			"coord" : [
+				-73.9523339,
+				40.784368
+			],
+			"street" : "Lexington Avenue",
+			"zipcode" : "10128"
+		},
+		{
+			"building" : "1",
+			"coord" : [
+				-74.0725099,
+				40.6434772
+			],
+			"street" : "Bay Street",
+			"zipcode" : "10301"
+		},
+		{
+			"building" : "150",
+			"coord" : [
+				-74.0760945,
+				40.6386606
+			],
+			"street" : "Bay Street",
+			"zipcode" : "10301"
+		},
+		{
+			"building" : "1204",
+			"coord" : [
+				-74.1038244,
+				40.6160044
+			],
+			"street" : "Victory Boulevard",
+			"zipcode" : "10301"
+		},
+		{
+			"building" : "1351",
+			"coord" : [
+				-74.1351911,
+				40.6264188
+			],
+			"street" : "Forest Avenue",
+			"zipcode" : "10302"
+		},
+		{
+			"building" : "2236",
+			"coord" : [
+				-74.16420579999999,
+				40.6262656
+			],
+			"street" : "Forest Avenue",
+			"zipcode" : "10303"
+		},
+		{
+			"building" : "597",
+			"coord" : [
+				-74.075734,
+				40.627277
+			],
+			"street" : "Bay Street",
+			"zipcode" : "10304"
+		},
+		{
+			"building" : "1145",
+			"coord" : [
+				-74.0664876,
+				40.6152616
+			],
+			"street" : "Bay Street",
+			"zipcode" : "10305"
+		},
+		{
+			"building" : "1750",
+			"coord" : [
+				-74.09208439999999,
+				40.5860792
+			],
+			"street" : "Hylan Boulevard",
+			"zipcode" : "10305"
+		},
+		{
+			"building" : "329",
+			"coord" : [
+				-74.0675964,
+				40.59192850000001
+			],
+			"street" : "Sand Lane",
+			"zipcode" : "10305"
+		},
+		{
+			"building" : "86",
+			"coord" : [
+				-74.1281034,
+				40.56481369999999
+			],
+			"street" : "Guyon Avenue",
+			"zipcode" : "10306"
+		},
+		{
+			"building" : "2381",
+			"coord" : [
+				-74.1077056,
+				40.5730842
+			],
+			"street" : "Hylan Boulevard",
+			"zipcode" : "10306"
+		},
+		{
+			"building" : "107",
+			"coord" : [
+				-74.109837,
+				40.566729
+			],
+			"street" : "Mill Road",
+			"zipcode" : "10306"
+		},
+		{
+			"building" : "137",
+			"coord" : [
+				-74.1157774,
+				40.5738323
+			],
+			"street" : "New Dorp Lane",
+			"zipcode" : "10306"
+		},
+		{
+			"building" : "303",
+			"coord" : [
+				-74.2334759,
+				40.5167888
+			],
+			"street" : "Page Avenue",
+			"zipcode" : "10307"
+		},
+		{
+			"building" : "680",
+			"coord" : [
+				-74.16386580000001,
+				40.5598468
+			],
+			"street" : "Arthur Kill Road",
+			"zipcode" : "10308"
+		},
+		{
+			"building" : "5",
+			"coord" : [
+				-74.15063310000001,
+				40.5498043
+			],
+			"street" : "Nelson Avenue",
+			"zipcode" : "10308"
+		},
+		{
+			"building" : "6390",
+			"coord" : [
+				-74.2159118,
+				40.5222021
+			],
+			"street" : "Amboy Rd",
+			"zipcode" : "10309"
+		},
+		{
+			"building" : "819",
+			"coord" : [
+				-74.11639319999999,
+				40.6290645
+			],
+			"street" : "Forest Ave",
+			"zipcode" : "10310"
+		},
+		{
+			"building" : "612",
+			"coord" : [
+				-74.10958339999999,
+				40.6296482
+			],
+			"street" : "Forest Avenue",
+			"zipcode" : "10310"
+		},
+		{
+			"building" : "262",
+			"coord" : [
+				-74.19261519999999,
+				40.5530453
+			],
+			"street" : "Arden Avenue",
+			"zipcode" : "10312"
+		},
+		{
+			"building" : "895",
+			"coord" : [
+				-74.19175709999999,
+				40.5327722
+			],
+			"street" : "Huguenot Avenue",
+			"zipcode" : "10312"
+		},
+		{
+			"building" : "1445",
+			"coord" : [
+				-74.1574104,
+				40.6117346
+			],
+			"street" : "Richmond Avenue",
+			"zipcode" : "10314"
+		},
+		{
+			"building" : "2200",
+			"coord" : [
+				-74.1628269,
+				40.5934584
+			],
+			"street" : "Richmond Avenue",
+			"zipcode" : "10314"
+		},
+		{
+			"building" : "2409",
+			"coord" : [
+				-74.1667278,
+				40.5887574
+			],
+			"street" : "Richmond Avenue",
+			"zipcode" : "10314"
+		},
+		{
+			"building" : "2655",
+			"coord" : [
+				-74.1660553,
+				40.5823983
+			],
+			"street" : "Richmond Avenue",
+			"zipcode" : "10314"
+		},
+		{
+			"building" : "1724",
+			"coord" : [
+				-74.1211864,
+				40.6128461
+			],
+			"street" : "Victory Boulevard",
+			"zipcode" : "10314"
+		},
+		{
+			"building" : "2005",
+			"coord" : [
+				-74.1305399,
+				40.6125712
+			],
+			"street" : "Victory Boulevard",
+			"zipcode" : "10314"
+		},
+		{
+			"building" : "3044",
+			"coord" : [
+				-73.9126637,
+				40.8202086
+			],
+			"street" : "3 Avenue",
+			"zipcode" : "10451"
+		},
+		{
+			"building" : "3209",
+			"coord" : [
+				-73.9090693,
+				40.82342999999999
+			],
+			"street" : "3 Avenue",
+			"zipcode" : "10451"
+		},
+		{
+			"building" : "91",
+			"coord" : [
+				-73.924339,
+				40.8276619
+			],
+			"street" : "East  161 Street",
+			"zipcode" : "10451"
+		},
+		{
+			"building" : "610",
+			"coord" : [
+				-73.93032130000002,
+				40.8193837
+			],
+			"street" : "Gateway Center Blvd",
+			"zipcode" : "10451"
+		},
+		{
+			"building" : "430",
+			"coord" : [
+				-73.9276146,
+				40.8169727
+			],
+			"street" : "Grand Concourse",
+			"zipcode" : "10451"
+		},
+		{
+			"building" : "18",
+			"coord" : [
+				-73.917354,
+				40.8398911
+			],
+			"street" : "E 170Th Street",
+			"zipcode" : "10452"
+		},
+		{
+			"building" : "55",
+			"coord" : [
+				-73.9207236,
+				40.8357678
+			],
+			"street" : "East  167 Street",
+			"zipcode" : "10452"
+		},
+		{
+			"building" : "2052",
+			"coord" : [
+				-73.9068789,
+				40.8538949
+			],
+			"street" : "Jerome Avenue",
+			"zipcode" : "10453"
+		},
+		{
+			"building" : "423",
+			"coord" : [
+				-73.9168326,
+				40.815967
+			],
+			"street" : "East  149 Street",
+			"zipcode" : "10455"
+		},
+		{
+			"building" : "837",
+			"coord" : [
+				-73.905101,
+				40.8125266
+			],
+			"street" : "East  149 Street",
+			"zipcode" : "10455"
+		},
+		{
+			"building" : "221A",
+			"coord" : [
+				-73.90469,
+				40.8493155
+			],
+			"street" : "East Tremont Avenue",
+			"zipcode" : "10457"
+		},
+		{
+			"building" : "597",
+			"coord" : [
+				-73.8935298,
+				40.8466652
+			],
+			"street" : "East Tremont Avenue",
+			"zipcode" : "10457"
+		},
+		{
+			"building" : "2044",
+			"coord" : [
+				-73.89792010000001,
+				40.8513853
+			],
+			"street" : "Webster Avenue",
+			"zipcode" : "10457"
+		},
+		{
+			"building" : "440",
+			"coord" : [
+				-73.8899284,
+				40.8605766
+			],
+			"street" : "East Fordham Road",
+			"zipcode" : "10458"
+		},
+		{
+			"building" : "316",
+			"coord" : [
+				-73.89175399999999,
+				40.8642751
+			],
+			"street" : "East Kingsbridge Road",
+			"zipcode" : "10458"
+		},
+		{
+			"building" : "2432",
+			"coord" : [
+				-73.8976112,
+				40.8604708
+			],
+			"street" : "Grand Concourse",
+			"zipcode" : "10458"
+		},
+		{
+			"building" : "2867",
+			"coord" : [
+				-73.88405589999999,
+				40.8672504
+			],
+			"street" : "Webster Avenue",
+			"zipcode" : "10458"
+		},
+		{
+			"building" : "1047",
+			"coord" : [
+				-73.89112589999999,
+				40.8211194
+			],
+			"street" : "E 163Rd St",
+			"zipcode" : "10459"
+		},
+		{
+			"building" : "1024",
+			"coord" : [
+				-73.8964976,
+				40.8164496
+			],
+			"street" : "Longwood Avenue",
+			"zipcode" : "10459"
+		},
+		{
+			"building" : "1490",
+			"coord" : [
+				-73.893934,
+				40.83438599999999
+			],
+			"street" : "Boston Road",
+			"zipcode" : "10460"
+		},
+		{
+			"building" : "2026",
+			"coord" : [
+				-73.8792988,
+				40.8409971
+			],
+			"street" : "Boston Road",
+			"zipcode" : "10460"
+		},
+		{
+			"building" : "961",
+			"coord" : [
+				-73.88313889999999,
+				40.8380259
+			],
+			"street" : "East  174 Street",
+			"zipcode" : "10460"
+		},
+		{
+			"building" : "3683",
+			"coord" : [
+				-73.82762819999999,
+				40.8524709
+			],
+			"street" : "Bruckner Boulevard",
+			"zipcode" : "10461"
+		},
+		{
+			"building" : "1749",
+			"coord" : [
+				-73.832105,
+				40.84635100000001
+			],
+			"street" : "Crosby Avenue",
+			"zipcode" : "10461"
+		},
+		{
+			"building" : "1720",
+			"coord" : [
+				-73.8433697,
+				40.8471942
+			],
+			"street" : "Eastchester Road",
+			"zipcode" : "10461"
+		},
+		{
+			"building" : "2383",
+			"coord" : [
+				-73.8466653,
+				40.8370761
+			],
+			"street" : "Westchester Avenue",
+			"zipcode" : "10461"
+		},
+		{
+			"building" : "74",
+			"coord" : [
+				-73.84275219999999,
+				40.8410883
+			],
+			"street" : "Westchester Square",
+			"zipcode" : "10461"
+		},
+		{
+			"building" : "2009",
+			"coord" : [
+				-73.85494849999999,
+				40.8544236
+			],
+			"street" : "Williamsbridge Rd",
+			"zipcode" : "10461"
+		},
+		{
+			"building" : "1448",
+			"coord" : [
+				-73.8600089,
+				40.8361635
+			],
+			"street" : "East Ave",
+			"zipcode" : "10462"
+		},
+		{
+			"building" : "968",
+			"coord" : [
+				-73.8571197,
+				40.8474902
+			],
+			"street" : "Morris Park Avenue",
+			"zipcode" : "10462"
+		},
+		{
+			"building" : "1957",
+			"coord" : [
+				-73.8589926,
+				40.8336773
+			],
+			"street" : "Westchester Avenue",
+			"zipcode" : "10462"
+		},
+		{
+			"building" : "2173",
+			"coord" : [
+				-73.8680797,
+				40.8557726
+			],
+			"street" : "White Plains Road",
+			"zipcode" : "10462"
+		},
+		{
+			"building" : "5209",
+			"coord" : [
+				-73.90988759999999,
+				40.8749574
+			],
+			"street" : "Broadway",
+			"zipcode" : "10463"
+		},
+		{
+			"building" : "5987",
+			"coord" : [
+				-73.89843530000002,
+				40.8902183
+			],
+			"street" : "Broadway",
+			"zipcode" : "10463"
+		},
+		{
+			"building" : "560",
+			"coord" : [
+				-73.9101759,
+				40.88559
+			],
+			"street" : "West 235 Street",
+			"zipcode" : "10463"
+		},
+		{
+			"building" : "3714",
+			"coord" : [
+				-73.8226664,
+				40.8267929
+			],
+			"street" : "East Tremont Avenue",
+			"zipcode" : "10465"
+		},
+		{
+			"building" : "837",
+			"coord" : [
+				-73.8364209,
+				40.8234943
+			],
+			"street" : "Hutchinson River Pkwy",
+			"zipcode" : "10465"
+		},
+		{
+			"building" : "980",
+			"coord" : [
+				-73.8492332,
+				40.8904927
+			],
+			"street" : "East  233 Street",
+			"zipcode" : "10466"
+		},
+		{
+			"building" : "3976",
+			"coord" : [
+				-73.8602205,
+				40.8878664
+			],
+			"street" : "White Plains Road",
+			"zipcode" : "10466"
+		},
+		{
+			"building" : "4375",
+			"coord" : [
+				-73.8551871,
+				40.8977897
+			],
+			"street" : "White Plains Road",
+			"zipcode" : "10466"
+		},
+		{
+			"building" : "2515",
+			"coord" : [
+				-73.8652819,
+				40.8637789
+			],
+			"street" : "Boston Road",
+			"zipcode" : "10467"
+		},
+		{
+			"building" : "311",
+			"coord" : [
+				-73.8781558,
+				40.872868
+			],
+			"street" : "East  204 Street",
+			"zipcode" : "10467"
+		},
+		{
+			"building" : "747",
+			"coord" : [
+				-73.8635998,
+				40.8766918
+			],
+			"street" : "East Gun Hill Road",
+			"zipcode" : "10467"
+		},
+		{
+			"building" : "3422",
+			"coord" : [
+				-73.8826735,
+				40.881086
+			],
+			"street" : "Jerome Avenue",
+			"zipcode" : "10467"
+		},
+		{
+			"building" : "2703",
+			"coord" : [
+				-73.8676565,
+				40.8656891
+			],
+			"street" : "White Plains Road",
+			"zipcode" : "10467"
+		},
+		{
+			"building" : "2438",
+			"coord" : [
+				-73.9011064,
+				40.8622094
+			],
+			"street" : "Jerome Avenue",
+			"zipcode" : "10468"
+		},
+		{
+			"building" : "2958",
+			"coord" : [
+				-73.8893834,
+				40.8725968
+			],
+			"street" : "Jerome Avenue",
+			"zipcode" : "10468"
+		},
+		{
+			"building" : "38",
+			"coord" : [
+				-73.8992435,
+				40.8676981
+			],
+			"street" : "West Kingsbridge Road",
+			"zipcode" : "10468"
+		},
+		{
+			"building" : "3460",
+			"coord" : [
+				-73.84820049999999,
+				40.876147
+			],
+			"street" : "Boston Road",
+			"zipcode" : "10469"
+		},
+		{
+			"building" : "1355",
+			"coord" : [
+				-73.8463898,
+				40.8707906
+			],
+			"street" : "East Gun Hill Road",
+			"zipcode" : "10469"
+		},
+		{
+			"building" : "2451B",
+			"coord" : [
+				-73.8434039,
+				40.8623051
+			],
+			"street" : "Eastchester Rd",
+			"zipcode" : "10469"
+		},
+		{
+			"building" : "2451",
+			"coord" : [
+				-73.8434039,
+				40.8623051
+			],
+			"street" : "Eastchester Road",
+			"zipcode" : "10469"
+		},
+		{
+			"building" : "5670",
+			"coord" : [
+				-73.9041189,
+				40.9060386
+			],
+			"street" : "Riverdale Avenue",
+			"zipcode" : "10471"
+		},
+		{
+			"building" : "1646",
+			"coord" : [
+				-73.8735835,
+				40.823093
+			],
+			"street" : "Bruckner Boulevard",
+			"zipcode" : "10473"
+		},
+		{
+			"building" : "200",
+			"coord" : [
+				-73.8289779,
+				40.8665658
+			],
+			"street" : "Baychester Ave",
+			"zipcode" : "10475"
+		},
+		{
+			"building" : "4006",
+			"coord" : [
+				-73.8332089,
+				40.8838004
+			],
+			"street" : "Boston Road",
+			"zipcode" : "10475"
+		},
+		{
+			"building" : "169",
+			"coord" : [
+				-73.8226657,
+				40.8653474
+			],
+			"street" : "Einstein Loop",
+			"zipcode" : "10475"
+		},
+		{
+			"building" : "25919",
+			"coord" : [
+				-73.7124888,
+				40.7470879
+			],
+			"street" : "Union Tpke",
+			"zipcode" : "11004"
+		},
+		{
+			"building" : "259-19",
+			"coord" : [
+				-73.7124888,
+				40.7470879
+			],
+			"street" : "Union Turnpike",
+			"zipcode" : "11004"
+		},
+		{
+			"building" : "271-06",
+			"coord" : [
+				-73.7025273,
+				40.7517463
+			],
+			"street" : "Union Turnpike",
+			"zipcode" : "11040"
+		},
+		{
+			"building" : "3942",
+			"coord" : [
+				-73.9413008,
+				40.7555661
+			],
+			"street" : "21 Street",
+			"zipcode" : "11101"
+		},
+		{
+			"building" : "3711",
+			"coord" : [
+				-73.9230272,
+				40.755907
+			],
+			"street" : "35 Avenue",
+			"zipcode" : "11101"
+		},
+		{
+			"building" : "1050",
+			"coord" : [
+				-73.952917,
+				40.7426976
+			],
+			"street" : "Jackson Ave",
+			"zipcode" : "11101"
+		},
+		{
+			"building" : "10-50",
+			"coord" : [
+				-73.9527841,
+				40.7422445
+			],
+			"street" : "Jackson Avenue",
+			"zipcode" : "11101"
+		},
+		{
+			"building" : "2534",
+			"coord" : [
+				-73.9426325,
+				40.7468597
+			],
+			"street" : "Jackson Avenue",
+			"zipcode" : "11101"
+		},
+		{
+			"building" : "35-11",
+			"coord" : [
+				-73.9291053,
+				40.7447555
+			],
+			"street" : "Queens Boulevard",
+			"zipcode" : "11101"
+		},
+		{
+			"building" : "2918",
+			"coord" : [
+				-73.9183061,
+				40.7705291
+			],
+			"street" : "Hoyt S Ave",
+			"zipcode" : "11102"
+		},
+		{
+			"building" : "40-17",
+			"coord" : [
+				-73.9182402,
+				40.7588787
+			],
+			"street" : "Broadway",
+			"zipcode" : "11103"
+		},
+		{
+			"building" : "30-09",
+			"coord" : [
+				-73.91523269999999,
+				40.7635775
+			],
+			"street" : "Steinway Street",
+			"zipcode" : "11103"
+		},
+		{
+			"building" : "4507",
+			"coord" : [
+				-73.9195653,
+				40.7419486
+			],
+			"street" : "Greenpoint Avenue",
+			"zipcode" : "11104"
+		},
+		{
+			"building" : "2211",
+			"coord" : [
+				-73.9125463,
+				40.7745707
+			],
+			"street" : "31 Street",
+			"zipcode" : "11105"
+		},
+		{
+			"building" : "4316",
+			"coord" : [
+				-73.909258,
+				40.7751232
+			],
+			"street" : "Ditmars Blvd",
+			"zipcode" : "11105"
+		},
+		{
+			"building" : "360305",
+			"coord" : [
+				-73.9308781,
+				40.7660597
+			],
+			"street" : "31 Street",
+			"zipcode" : "11106"
+		},
+		{
+			"building" : "2109",
+			"coord" : [
+				-73.9307085,
+				40.7656679
+			],
+			"street" : "Broadway",
+			"zipcode" : "11106"
+		},
+		{
+			"building" : "3118",
+			"coord" : [
+				-73.92483849999999,
+				40.7614524
+			],
+			"street" : "Broadway",
+			"zipcode" : "11106"
+		},
+		{
+			"building" : "216",
+			"coord" : [
+				-73.9919939,
+				40.6893143
+			],
+			"street" : "Atlantic Ave",
+			"zipcode" : "11201"
+		},
+		{
+			"building" : "75",
+			"coord" : [
+				-73.9978624,
+				40.6913843
+			],
+			"street" : "Atlantic Avenue",
+			"zipcode" : "11201"
+		},
+		{
+			"building" : "391",
+			"coord" : [
+				-73.9871033,
+				40.6919271
+			],
+			"street" : "Jay Street",
+			"zipcode" : "11201"
+		},
+		{
+			"building" : "4",
+			"coord" : [
+				-73.9859414,
+				40.6986772
+			],
+			"street" : "Metrotech Center Street",
+			"zipcode" : "11201"
+		},
+		{
+			"building" : "117",
+			"coord" : [
+				-73.99478409999999,
+				40.6951241
+			],
+			"street" : "Montague Street",
+			"zipcode" : "11201"
+		},
+		{
+			"building" : "1",
+			"coord" : [
+				-73.9808893,
+				40.6905175
+			],
+			"street" : "University Plaza",
+			"zipcode" : "11201"
+		},
+		{
+			"building" : "5107",
+			"coord" : [
+				-73.92906630000002,
+				40.6522449
+			],
+			"street" : "Church Avenue",
+			"zipcode" : "11203"
+		},
+		{
+			"building" : "1343",
+			"coord" : [
+				-73.9288381,
+				40.63967170000001
+			],
+			"street" : "Utica Avenue",
+			"zipcode" : "11203"
+		},
+		{
+			"building" : "504",
+			"coord" : [
+				-73.9314318,
+				40.6613561
+			],
+			"street" : "Utica Avenue",
+			"zipcode" : "11203"
+		},
+		{
+			"building" : "6814",
+			"coord" : [
+				-73.99244519999999,
+				40.617238
+			],
+			"street" : "18 Avenue",
+			"zipcode" : "11204"
+		},
+		{
+			"building" : "6724",
+			"coord" : [
+				-73.9834197,
+				40.6123917
+			],
+			"street" : "Bay Parkway",
+			"zipcode" : "11204"
+		},
+		{
+			"building" : "400",
+			"coord" : [
+				-73.9699771,
+				40.6930003
+			],
+			"street" : "Myrtle Ave",
+			"zipcode" : "11205"
+		},
+		{
+			"building" : "100",
+			"coord" : [
+				-73.94073709999999,
+				40.711665
+			],
+			"street" : "Bushwick Avenue",
+			"zipcode" : "11206"
+		},
+		{
+			"building" : "1709",
+			"coord" : [
+				-73.9115339,
+				40.68378
+			],
+			"street" : "Broadway",
+			"zipcode" : "11207"
+		},
+		{
+			"building" : "1842",
+			"coord" : [
+				-73.9006277,
+				40.6763202
+			],
+			"street" : "East New York Avenue",
+			"zipcode" : "11207"
+		},
+		{
+			"building" : "11040",
+			"coord" : [
+				-73.8910372,
+				40.6501093
+			],
+			"street" : "Flatlands Avenue",
+			"zipcode" : "11207"
+		},
+		{
+			"building" : "1868",
+			"coord" : [
+				-73.8922719,
+				40.6573468
+			],
+			"street" : "Linden Blvd",
+			"zipcode" : "11207"
+		},
+		{
+			"building" : "530",
+			"coord" : [
+				-73.86959399999999,
+				40.6769624
+			],
+			"street" : "Conduit Blvd",
+			"zipcode" : "11208"
+		},
+		{
+			"building" : "1148",
+			"coord" : [
+				-73.8668505,
+				40.6787205
+			],
+			"street" : "Liberty Avenue",
+			"zipcode" : "11208"
+		},
+		{
+			"building" : "7504",
+			"coord" : [
+				-74.028092,
+				40.63133
+			],
+			"street" : "3 Avenue",
+			"zipcode" : "11209"
+		},
+		{
+			"building" : "8711",
+			"coord" : [
+				-74.0312644,
+				40.6223584
+			],
+			"street" : "3 Avenue",
+			"zipcode" : "11209"
+		},
+		{
+			"building" : "9206",
+			"coord" : [
+				-74.0304744,
+				40.6183286
+			],
+			"street" : "4 Avenue",
+			"zipcode" : "11209"
+		},
+		{
+			"building" : "7517",
+			"coord" : [
+				-74.0225806,
+				40.6288522
+			],
+			"street" : "5 Avenue",
+			"zipcode" : "11209"
+		},
+		{
+			"building" : "8421",
+			"coord" : [
+				-74.0253807,
+				40.6221519
+			],
+			"street" : "5 Avenue",
+			"zipcode" : "11209"
+		},
+		{
+			"building" : "209",
+			"coord" : [
+				-73.9586023,
+				40.7168031
+			],
+			"street" : "Bedford Avenue",
+			"zipcode" : "11211"
+		},
+		{
+			"building" : "717",
+			"coord" : [
+				-73.9443405,
+				40.71182049999999
+			],
+			"street" : "Grand Street",
+			"zipcode" : "11211"
+		},
+		{
+			"building" : "196",
+			"coord" : [
+				-73.9500903,
+				40.7061217
+			],
+			"street" : "Union Avenue",
+			"zipcode" : "11211"
+		},
+		{
+			"building" : "1501",
+			"coord" : [
+				-73.91784,
+				40.668925
+			],
+			"street" : "Pitkin Avenue",
+			"zipcode" : "11212"
+		},
+		{
+			"building" : "1685",
+			"coord" : [
+				-73.9110546,
+				40.6698363
+			],
+			"street" : "Pitkin Avenue",
+			"zipcode" : "11212"
+		},
+		{
+			"building" : "241",
+			"coord" : [
+				-73.9201583,
+				40.66154179999999
+			],
+			"street" : "Rockaway Parkway",
+			"zipcode" : "11212"
+		},
+		{
+			"building" : "273",
+			"coord" : [
+				-73.9308964,
+				40.6692988
+			],
+			"street" : "Utica Avenue",
+			"zipcode" : "11213"
+		},
+		{
+			"building" : "1864",
+			"coord" : [
+				-74.0012936,
+				40.6061421
+			],
+			"street" : "86 Street",
+			"zipcode" : "11214"
+		},
+		{
+			"building" : "2120",
+			"coord" : [
+				-73.995712,
+				40.6028151
+			],
+			"street" : "86 Street",
+			"zipcode" : "11214"
+		},
+		{
+			"building" : "2869",
+			"coord" : [
+				-73.98373959999999,
+				40.58759570000001
+			],
+			"street" : "Harway Avenue",
+			"zipcode" : "11214"
+		},
+		{
+			"building" : "525",
+			"coord" : [
+				-73.9884244,
+				40.6663428
+			],
+			"street" : "5Th Ave",
+			"zipcode" : "11215"
+		},
+		{
+			"building" : "258",
+			"coord" : [
+				-73.9798995,
+				40.6692055
+			],
+			"street" : "7 Avenue",
+			"zipcode" : "11215"
+		},
+		{
+			"building" : "1507",
+			"coord" : [
+				-73.9410662,
+				40.6801478
+			],
+			"street" : "Fulton Street",
+			"zipcode" : "11216"
+		},
+		{
+			"building" : "572",
+			"coord" : [
+				-73.97891419999999,
+				40.6843706
+			],
+			"street" : "Atlantic Avenue",
+			"zipcode" : "11217"
+		},
+		{
+			"building" : "11",
+			"coord" : [
+				-73.98017759999999,
+				40.6881555
+			],
+			"street" : "Flatbush Avenue",
+			"zipcode" : "11217"
+		},
+		{
+			"building" : "139",
+			"coord" : [
+				-73.9768727,
+				40.6845666
+			],
+			"street" : "Flatbush Avenue",
+			"zipcode" : "11217"
+		},
+		{
+			"building" : "713",
+			"coord" : [
+				-73.9769101,
+				40.6874695
+			],
+			"street" : "Fulton Street",
+			"zipcode" : "11217"
+		},
+		{
+			"building" : "93",
+			"coord" : [
+				-73.979845,
+				40.6428456
+			],
+			"street" : "Church Avenue",
+			"zipcode" : "11218"
+		},
+		{
+			"building" : "5407",
+			"coord" : [
+				-74.01929849999999,
+				40.6465673
+			],
+			"street" : "2 Avenue",
+			"zipcode" : "11220"
+		},
+		{
+			"building" : "6801",
+			"coord" : [
+				-74.0229319,
+				40.6350677
+			],
+			"street" : "4 Avenue",
+			"zipcode" : "11220"
+		},
+		{
+			"building" : "5601",
+			"coord" : [
+				-74.013656,
+				40.6415
+			],
+			"street" : "5 Avenue",
+			"zipcode" : "11220"
+		},
+		{
+			"building" : "2486",
+			"coord" : [
+				-73.9614666,
+				40.59635
+			],
+			"street" : "Coney Island Avenue",
+			"zipcode" : "11223"
+		},
+		{
+			"building" : "2025",
+			"coord" : [
+				-73.985013,
+				40.597284
+			],
+			"street" : "Stillwell Avenue",
+			"zipcode" : "11223"
+		},
+		{
+			"building" : "2915",
+			"coord" : [
+				-73.9812037,
+				40.576206
+			],
+			"street" : "Stillwell Ave",
+			"zipcode" : "11224"
+		},
+		{
+			"building" : "1622",
+			"coord" : [
+				-73.9565102,
+				40.6672384
+			],
+			"street" : "Bedford Avenue",
+			"zipcode" : "11225"
+		},
+		{
+			"building" : "2121",
+			"coord" : [
+				-73.9608842,
+				40.6601355
+			],
+			"street" : "Beekman Place",
+			"zipcode" : "11225"
+		},
+		{
+			"building" : "1010",
+			"coord" : [
+				-73.9511558,
+				40.6637452
+			],
+			"street" : "Nostrand Avenue",
+			"zipcode" : "11225"
+		},
+		{
+			"building" : "2011",
+			"coord" : [
+				-73.9605466,
+				40.6502651
+			],
+			"street" : "Church Avenue",
+			"zipcode" : "11226"
+		},
+		{
+			"building" : "1092",
+			"coord" : [
+				-73.95817269999999,
+				40.6437634
+			],
+			"street" : "Flatbush Avenue",
+			"zipcode" : "11226"
+		},
+		{
+			"building" : "739",
+			"coord" : [
+				-73.9594779,
+				40.6549693
+			],
+			"street" : "Flatbush Avenue",
+			"zipcode" : "11226"
+		},
+		{
+			"building" : "41",
+			"coord" : [
+				-73.9630815,
+				40.6350624
+			],
+			"street" : "Newkirk Plaza",
+			"zipcode" : "11226"
+		},
+		{
+			"building" : "1875",
+			"coord" : [
+				-73.9480495,
+				40.6398755
+			],
+			"street" : "Nostrand Avenue",
+			"zipcode" : "11226"
+		},
+		{
+			"building" : "7521",
+			"coord" : [
+				-74.00776800000001,
+				40.6197181
+			],
+			"street" : "13 Avenue",
+			"zipcode" : "11228"
+		},
+		{
+			"building" : "1819",
+			"coord" : [
+				-73.952879,
+				40.599406
+			],
+			"street" : "Avenue U",
+			"zipcode" : "11229"
+		},
+		{
+			"building" : "3102",
+			"coord" : [
+				-73.9350192,
+				40.60139520000001
+			],
+			"street" : "Avenue U",
+			"zipcode" : "11229"
+		},
+		{
+			"building" : "1620",
+			"coord" : [
+				-73.9567127,
+				40.6092184
+			],
+			"street" : "Kings Highway",
+			"zipcode" : "11229"
+		},
+		{
+			"building" : "731",
+			"coord" : [
+				-73.99731849999999,
+				40.6607347
+			],
+			"street" : "4 Avenue",
+			"zipcode" : "11232"
+		},
+		{
+			"building" : "900",
+			"coord" : [
+				-74.00303199999999,
+				40.6560739
+			],
+			"street" : "4 Avenue",
+			"zipcode" : "11232"
+		},
+		{
+			"building" : "882",
+			"coord" : [
+				-74.0038687,
+				40.6516286
+			],
+			"street" : "5 Avenue",
+			"zipcode" : "11232"
+		},
+		{
+			"building" : "2101",
+			"coord" : [
+				-73.93198009999999,
+				40.6185062
+			],
+			"street" : "Flatbush Avenue",
+			"zipcode" : "11234"
+		},
+		{
+			"building" : "5719",
+			"coord" : [
+				-73.920844,
+				40.630815
+			],
+			"street" : "Flatlands Avenue",
+			"zipcode" : "11234"
+		},
+		{
+			"building" : "5114",
+			"coord" : [
+				-73.9210275,
+				40.6413138
+			],
+			"street" : "Kings Plaza",
+			"zipcode" : "11234"
+		},
+		{
+			"building" : "2167",
+			"coord" : [
+				-73.9165728,
+				40.6266001
+			],
+			"street" : "Ralph Avenue",
+			"zipcode" : "11234"
+		},
+		{
+			"building" : "2801",
+			"coord" : [
+				-73.930981,
+				40.5861965
+			],
+			"street" : "Knapp Street",
+			"zipcode" : "11235"
+		},
+		{
+			"building" : "1503",
+			"coord" : [
+				-73.95377049999999,
+				40.5874759
+			],
+			"street" : "Sheepshead Bay Road",
+			"zipcode" : "11235"
+		},
+		{
+			"building" : "8725",
+			"coord" : [
+				-73.9132515,
+				40.644515
+			],
+			"street" : "Avenue D",
+			"zipcode" : "11236"
+		},
+		{
+			"building" : "7810",
+			"coord" : [
+				-73.91399679999999,
+				40.6343828
+			],
+			"street" : "Flatlands Avenue",
+			"zipcode" : "11236"
+		},
+		{
+			"building" : "1553",
+			"coord" : [
+				-73.9188903,
+				40.6390186
+			],
+			"street" : "Ralph Avenue",
+			"zipcode" : "11236"
+		},
+		{
+			"building" : "1376",
+			"coord" : [
+				-73.9036034,
+				40.646061
+			],
+			"street" : "Rockaway Parkway",
+			"zipcode" : "11236"
+		},
+		{
+			"building" : "2052",
+			"coord" : [
+				-73.88950249999999,
+				40.6326013
+			],
+			"street" : "Rockaway Parkway",
+			"zipcode" : "11236"
+		},
+		{
+			"building" : "1432",
+			"coord" : [
+				-73.9174383,
+				40.6987514
+			],
+			"street" : "Myrtle Avenue",
+			"zipcode" : "11237"
+		},
+		{
+			"building" : "120",
+			"coord" : [
+				-73.91831909999999,
+				40.7034828
+			],
+			"street" : "Wyckoff Avenue",
+			"zipcode" : "11237"
+		},
+		{
+			"building" : "375",
+			"coord" : [
+				-73.9716658,
+				40.6765941
+			],
+			"street" : "Flatbush Avenue",
+			"zipcode" : "11238"
+		},
+		{
+			"building" : "4024",
+			"coord" : [
+				-73.8341856,
+				40.7576487
+			],
+			"street" : "College Point Boulevard",
+			"zipcode" : "11354"
+		},
+		{
+			"building" : "13645",
+			"coord" : [
+				-73.8284108,
+				40.7600099
+			],
+			"street" : "Roosevelt Avenue",
+			"zipcode" : "11354"
+		},
+		{
+			"building" : "14703",
+			"coord" : [
+				-73.81520139999999,
+				40.755635
+			],
+			"street" : "45 Avenue",
+			"zipcode" : "11355"
+		},
+		{
+			"building" : "59-16",
+			"coord" : [
+				-73.8153513,
+				40.7403583
+			],
+			"street" : "Kissena Boulevard",
+			"zipcode" : "11355"
+		},
+		{
+			"building" : "15-18",
+			"coord" : [
+				-73.8459791,
+				40.7836797
+			],
+			"street" : "College Point Boulevard",
+			"zipcode" : "11356"
+		},
+		{
+			"building" : "15301",
+			"coord" : [
+				-73.80797729999999,
+				40.7935544
+			],
+			"street" : "10Th Ave",
+			"zipcode" : "11357"
+		},
+		{
+			"building" : "14-41",
+			"coord" : [
+				-73.8131915,
+				40.7877377
+			],
+			"street" : "150 Street",
+			"zipcode" : "11357"
+		},
+		{
+			"building" : "25-50",
+			"coord" : [
+				-73.7967417,
+				40.7733259
+			],
+			"street" : "Francis Lewis Boulevard",
+			"zipcode" : "11358"
+		},
+		{
+			"building" : "34-01",
+			"coord" : [
+				-73.7891592,
+				40.7661384
+			],
+			"street" : "Francis Lewis Boulevard",
+			"zipcode" : "11358"
+		},
+		{
+			"building" : "3927",
+			"coord" : [
+				-73.771118,
+				40.764483
+			],
+			"street" : "Bell Boulevard",
+			"zipcode" : "11361"
+		},
+		{
+			"building" : "20512",
+			"coord" : [
+				-73.73424039999999,
+				40.7722265
+			],
+			"street" : "Northern Boulevard",
+			"zipcode" : "11361"
+		},
+		{
+			"building" : "24506",
+			"coord" : [
+				-73.726467,
+				40.7639451
+			],
+			"street" : "Horace Harding Expressway",
+			"zipcode" : "11362"
+		},
+		{
+			"building" : "162-16",
+			"coord" : [
+				-73.8052915,
+				40.7211216
+			],
+			"street" : "Union Turnpike",
+			"zipcode" : "11366"
+		},
+		{
+			"building" : "176-71",
+			"coord" : [
+				-73.7910625,
+				40.7262367
+			],
+			"street" : "Union Turnpike",
+			"zipcode" : "11366"
+		},
+		{
+			"building" : "7072",
+			"coord" : [
+				-73.8153481,
+				40.7299783
+			],
+			"street" : "Kissena Boulevard",
+			"zipcode" : "11367"
+		},
+		{
+			"building" : "154-01",
+			"coord" : [
+				-73.8097636,
+				40.7199334
+			],
+			"street" : "Union Turnpike",
+			"zipcode" : "11367"
+		},
+		{
+			"building" : "10811",
+			"coord" : [
+				-73.854432,
+				40.743127
+			],
+			"street" : "Corona Avenue",
+			"zipcode" : "11368"
+		},
+		{
+			"building" : "87-04",
+			"coord" : [
+				-73.882177,
+				40.7642609
+			],
+			"street" : "Astoria Boulevard",
+			"zipcode" : "11369"
+		},
+		{
+			"building" : "8312",
+			"coord" : [
+				-73.8829256,
+				40.74975389999999
+			],
+			"street" : "37 Avenue",
+			"zipcode" : "11372"
+		},
+		{
+			"building" : "75-06",
+			"coord" : [
+				-73.8906446,
+				40.7490685
+			],
+			"street" : "37Th Avenue",
+			"zipcode" : "11372"
+		},
+		{
+			"building" : "34-47",
+			"coord" : [
+				-73.871697,
+				40.753729
+			],
+			"street" : "Junction Boulevard",
+			"zipcode" : "11372"
+		},
+		{
+			"building" : "71-08",
+			"coord" : [
+				-73.8950739,
+				40.754256
+			],
+			"street" : "Northern Boulevard",
+			"zipcode" : "11372"
+		},
+		{
+			"building" : "7919",
+			"coord" : [
+				-73.88753419999999,
+				40.7555337
+			],
+			"street" : "Northern Boulevard",
+			"zipcode" : "11372"
+		},
+		{
+			"building" : "86-09",
+			"coord" : [
+				-73.8796424,
+				40.7481056
+			],
+			"street" : "Roosevelt Avenue",
+			"zipcode" : "11372"
+		},
+		{
+			"building" : "91-24",
+			"coord" : [
+				-73.8693515,
+				40.7338491
+			],
+			"street" : "59 Avenue",
+			"zipcode" : "11373"
+		},
+		{
+			"building" : "43-43",
+			"coord" : [
+				-73.87344399999999,
+				40.742747
+			],
+			"street" : "91 Place",
+			"zipcode" : "11373"
+		},
+		{
+			"building" : "74-22",
+			"coord" : [
+				-73.8908299,
+				40.7462574
+			],
+			"street" : "Broadway",
+			"zipcode" : "11373"
+		},
+		{
+			"building" : "80-05",
+			"coord" : [
+				-73.8843656,
+				40.7436586
+			],
+			"street" : "Broadway",
+			"zipcode" : "11373"
+		},
+		{
+			"building" : "6101",
+			"coord" : [
+				-73.8630356,
+				40.7327192
+			],
+			"street" : "Junction Boulevard",
+			"zipcode" : "11374"
+		},
+		{
+			"building" : "9558",
+			"coord" : [
+				-73.8578891,
+				40.7282641
+			],
+			"street" : "Queens Blvd",
+			"zipcode" : "11374"
+		},
+		{
+			"building" : "6429",
+			"coord" : [
+				-73.8487918,
+				40.7322432
+			],
+			"street" : "108 Street",
+			"zipcode" : "11375"
+		},
+		{
+			"building" : "107-28",
+			"coord" : [
+				-73.8439865,
+				40.72144189999999
+			],
+			"street" : "71 Avenue",
+			"zipcode" : "11375"
+		},
+		{
+			"building" : "102-10",
+			"coord" : [
+				-73.85079089999999,
+				40.7104309
+			],
+			"street" : "Metropolitan Avenue",
+			"zipcode" : "11375"
+		},
+		{
+			"building" : "100-21",
+			"coord" : [
+				-73.8529053,
+				40.72705149999999
+			],
+			"street" : "Queens Boulevard",
+			"zipcode" : "11375"
+		},
+		{
+			"building" : "110-78",
+			"coord" : [
+				-73.8554864,
+				40.727372
+			],
+			"street" : "Queens Boulevard",
+			"zipcode" : "11375"
+		},
+		{
+			"building" : "11630",
+			"coord" : [
+				-73.83176069999999,
+				40.7150367
+			],
+			"street" : "Queens Boulevard",
+			"zipcode" : "11375"
+		},
+		{
+			"building" : "5122",
+			"coord" : [
+				-73.90961589999999,
+				40.7518599
+			],
+			"street" : "Northern Boulevard",
+			"zipcode" : "11377"
+		},
+		{
+			"building" : "5018",
+			"coord" : [
+				-73.91419499999999,
+				40.743385
+			],
+			"street" : "Roosevelt Ave",
+			"zipcode" : "11377"
+		},
+		{
+			"building" : "60-25",
+			"coord" : [
+				-73.9106254,
+				40.7448391
+			],
+			"street" : "Roosevelt Avenue",
+			"zipcode" : "11377"
+		},
+		{
+			"building" : "6979",
+			"coord" : [
+				-73.8931363,
+				40.7275365
+			],
+			"street" : "Grand Avenue",
+			"zipcode" : "11378"
+		},
+		{
+			"building" : "7264",
+			"coord" : [
+				-73.8794672,
+				40.7124324
+			],
+			"street" : "Metropolitan Avenue",
+			"zipcode" : "11379"
+		},
+		{
+			"building" : "66-90",
+			"coord" : [
+				-73.8970899,
+				40.705979
+			],
+			"street" : "Fresh Pond Road",
+			"zipcode" : "11385"
+		},
+		{
+			"building" : "6001",
+			"coord" : [
+				-73.905278,
+				40.7130859
+			],
+			"street" : "Metropolitan Avenue",
+			"zipcode" : "11385"
+		},
+		{
+			"building" : "54-20",
+			"coord" : [
+				-73.91001709999999,
+				40.6994347
+			],
+			"street" : "Myrtle Avenue",
+			"zipcode" : "11385"
+		},
+		{
+			"building" : "56-53",
+			"coord" : [
+				-73.90409580000001,
+				40.7005496
+			],
+			"street" : "Myrtle Avenue",
+			"zipcode" : "11385"
+		},
+		{
+			"building" : "69-14",
+			"coord" : [
+				-73.8821937,
+				40.7016792
+			],
+			"street" : "Myrtle Avenue",
+			"zipcode" : "11385"
+		},
+		{
+			"building" : "217-06",
+			"coord" : [
+				-73.7521106,
+				40.6796785
+			],
+			"street" : "Merrick Boulevard",
+			"zipcode" : "11413"
+		},
+		{
+			"building" : "219-25",
+			"coord" : [
+				-73.75776379999999,
+				40.6656054
+			],
+			"street" : "North Conduit Avenue",
+			"zipcode" : "11413"
+		},
+		{
+			"building" : "15949",
+			"coord" : [
+				-73.83922199999999,
+				40.6578552
+			],
+			"street" : "Crossbay Boulevard",
+			"zipcode" : "11414"
+		},
+		{
+			"building" : "85-21",
+			"coord" : [
+				-73.82527259999999,
+				40.7036166
+			],
+			"street" : "126 Street",
+			"zipcode" : "11415"
+		},
+		{
+			"building" : "120-80",
+			"coord" : [
+				-73.8202587,
+				40.7096644
+			],
+			"street" : "Queens Boulevard",
+			"zipcode" : "11415"
+		},
+		{
+			"building" : "102-06",
+			"coord" : [
+				-73.8572619,
+				40.685671
+			],
+			"street" : "Atlantic Avenue",
+			"zipcode" : "11416"
+		},
+		{
+			"building" : "135-09",
+			"coord" : [
+				-73.842863,
+				40.6734713
+			],
+			"street" : "Cross Bay Boulevard",
+			"zipcode" : "11417"
+		},
+		{
+			"building" : "10502",
+			"coord" : [
+				-73.83403600000001,
+				40.678521
+			],
+			"street" : "Rockaway Blvd",
+			"zipcode" : "11417"
+		},
+		{
+			"building" : "92-17",
+			"coord" : [
+				-73.8468542,
+				40.6815073
+			],
+			"street" : "Rockaway Boulevard",
+			"zipcode" : "11417"
+		},
+		{
+			"building" : "11814",
+			"coord" : [
+				-73.8311829,
+				40.6997197
+			],
+			"street" : "Jamaica Avenue",
+			"zipcode" : "11418"
+		},
+		{
+			"building" : "118-18",
+			"coord" : [
+				-73.82430699999999,
+				40.685901
+			],
+			"street" : "Liberty Avenue",
+			"zipcode" : "11419"
+		},
+		{
+			"building" : "130-11",
+			"coord" : [
+				-73.8097894,
+				40.6673772
+			],
+			"street" : "North Conduit Avenue",
+			"zipcode" : "11420"
+		},
+		{
+			"building" : "110-00",
+			"coord" : [
+				-73.8328389,
+				40.6729864
+			],
+			"street" : "Rockaway Boulevard",
+			"zipcode" : "11420"
+		},
+		{
+			"building" : "9212",
+			"coord" : [
+				-73.85143889999999,
+				40.6939422
+			],
+			"street" : "Jamaica Ave",
+			"zipcode" : "11421"
+		},
+		{
+			"building" : "80-20",
+			"coord" : [
+				-73.8615669,
+				40.6920626
+			],
+			"street" : "Jamaica Avenue",
+			"zipcode" : "11421"
+		},
+		{
+			"building" : "92-12",
+			"coord" : [
+				-73.85275240000001,
+				40.6932376
+			],
+			"street" : "Jamaica Avenue",
+			"zipcode" : "11421"
+		},
+		{
+			"building" : "245-01",
+			"coord" : [
+				-73.73468,
+				40.6649249
+			],
+			"street" : "Francis Lewis Boulevard",
+			"zipcode" : "11422"
+		},
+		{
+			"building" : "252-18",
+			"coord" : [
+				-73.7408438,
+				40.6362391
+			],
+			"street" : "Rockaway Boulevard",
+			"zipcode" : "11422"
+		},
+		{
+			"building" : "205-20",
+			"coord" : [
+				-73.754424,
+				40.7134835
+			],
+			"street" : "Jamaica Avenue",
+			"zipcode" : "11423"
+		},
+		{
+			"building" : "205-20",
+			"coord" : [
+				-73.754424,
+				40.7134835
+			],
+			"street" : "Jamaica Avenue",
+			"zipcode" : "11423"
+		},
+		{
+			"building" : "253-10",
+			"coord" : [
+				-73.71409589999999,
+				40.7357386
+			],
+			"street" : "Hillside Avenue",
+			"zipcode" : "11426"
+		},
+		{
+			"building" : "251-05",
+			"coord" : [
+				-73.71394,
+				40.7268432
+			],
+			"street" : "Jamaica Avenue",
+			"zipcode" : "11426"
+		},
+		{
+			"building" : "220-34",
+			"coord" : [
+				-73.7423458,
+				40.7309059
+			],
+			"street" : "Hillside Avenue",
+			"zipcode" : "11427"
+		},
+		{
+			"building" : "218-14",
+			"coord" : [
+				-73.736481,
+				40.7177976
+			],
+			"street" : "Jamaica Avenue",
+			"zipcode" : "11428"
+		},
+		{
+			"building" : "218-74",
+			"coord" : [
+				-73.7356873,
+				40.7129784
+			],
+			"street" : "Hempstead Avenue",
+			"zipcode" : "11429"
+		},
+		{
+			"building" : "0",
+			"coord" : [
+				-73.7822056,
+				40.6434612
+			],
+			"street" : "Jfk Int'L Airport",
+			"zipcode" : "11430"
+		},
+		{
+			"building" : "168-14",
+			"coord" : [
+				-73.79413579999999,
+				40.7099523
+			],
+			"street" : "Hillside Avenue",
+			"zipcode" : "11432"
+		},
+		{
+			"building" : "181-02",
+			"coord" : [
+				-73.78163339999999,
+				40.7131225
+			],
+			"street" : "Hillside Avenue",
+			"zipcode" : "11432"
+		},
+		{
+			"building" : "16814",
+			"coord" : [
+				-73.7918401,
+				40.7063817
+			],
+			"street" : "Jamaica Avenue",
+			"zipcode" : "11432"
+		},
+		{
+			"building" : "87-48",
+			"coord" : [
+				-73.80314109999999,
+				40.7080288
+			],
+			"street" : "Parsons Boulevard",
+			"zipcode" : "11432"
+		},
+		{
+			"building" : "165-25",
+			"coord" : [
+				-73.791716,
+				40.7024684
+			],
+			"street" : "Liberty Avenue",
+			"zipcode" : "11433"
+		},
+		{
+			"building" : "16991",
+			"coord" : [
+				-73.77037290000001,
+				40.6727142
+			],
+			"street" : "137 Avenue",
+			"zipcode" : "11434"
+		},
+		{
+			"building" : "165-58",
+			"coord" : [
+				-73.777592,
+				40.6794594
+			],
+			"street" : "Baisley Boulevard",
+			"zipcode" : "11434"
+		},
+		{
+			"building" : "14692",
+			"coord" : [
+				-73.7683457,
+				40.660716
+			],
+			"street" : "Guy R Brewer Blvd",
+			"zipcode" : "11434"
+		},
+		{
+			"building" : "12702",
+			"coord" : [
+				-73.765484,
+				40.6812978
+			],
+			"street" : "Merrick Boulevard",
+			"zipcode" : "11434"
+		},
+		{
+			"building" : "114-14",
+			"coord" : [
+				-73.7938357,
+				40.6858641
+			],
+			"street" : "Sutphin Boulevard",
+			"zipcode" : "11434"
+		},
+		{
+			"building" : "146-04",
+			"coord" : [
+				-73.8087319,
+				40.7015862
+			],
+			"street" : "Jamaica Avenue",
+			"zipcode" : "11435"
+		},
+		{
+			"building" : "137-21",
+			"coord" : [
+				-73.8038926,
+				40.6967619
+			],
+			"street" : "Liberty Avenue",
+			"zipcode" : "11435"
+		},
+		{
+			"building" : "138-05",
+			"coord" : [
+				-73.8182077,
+				40.70884
+			],
+			"street" : "Queens Boulevard",
+			"zipcode" : "11435"
+		},
+		{
+			"building" : "88-14",
+			"coord" : [
+				-73.8094122,
+				40.7044408
+			],
+			"street" : "Sutphin Boulevard",
+			"zipcode" : "11435"
+		},
+		{
+			"building" : "233",
+			"coord" : [
+				-73.7544676,
+				40.5964197
+			],
+			"street" : "Beach   20 Street",
+			"zipcode" : "11691"
+		},
+		{
+			"building" : "1807",
+			"coord" : [
+				-73.7502425,
+				40.6026329
+			],
+			"street" : "Mott Avenue",
+			"zipcode" : "11691"
+		},
+		{
+			"building" : "68-20",
+			"coord" : [
+				-73.7971565,
+				40.5904747
+			],
+			"street" : "Rockaway Beach Boulevard",
+			"zipcode" : "11692"
+		},
+		{
+			"building" : "68-20",
+			"coord" : [
+				-73.7971565,
+				40.5904747
+			],
+			"street" : "Rockaway Beach Boulevard",
+			"zipcode" : "11692"
+		}
+	],
+	"count" : 421,
+	"name" : "Subway"
+}
+{ "count" : 524, "date" : ISODate("2015-01-20T00:00:00Z") }
+{ "count" : 244, "date" : ISODate("2014-06-26T00:00:00Z") }
+{ "count" : 233, "date" : ISODate("2014-06-25T00:00:00Z") }
+{ "count" : 214, "date" : ISODate("2014-04-02T00:00:00Z") }
+{ "count" : 190, "date" : ISODate("2014-06-24T00:00:00Z") }
+bye

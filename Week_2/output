@@ -1,0 +1,117 @@
+MongoDB shell version v4.0.3
+connecting to: mongodb://127.0.0.1:27017
+Implicit session: session { "id" : UUID("15ae0a60-0828-4ce2-85f8-a3f98932d40e") }
+MongoDB server version: 4.0.3
+switched to db msds697
+4
+{ "name" : "World'S Finest Ice Cream Yugort Bakery" }
+{ "name" : "Whitehall Pretzel & Ice Cream" }
+{ "name" : "Van Leeuwen Artisan Ice Cream" }
+{
+	"address" : {
+		"coord" : [
+			100.6177619,
+			13.7085011
+		]
+	},
+	"grades" : [
+		{
+			"date" : ISODate("2014-09-26T00:00:00Z"),
+			"grade" : "A",
+			"score" : 10
+		}
+	],
+	"name" : "Lke Catering"
+}
+{
+	"address" : {
+		"coord" : [
+			153.1628795,
+			-28.0168595
+		]
+	},
+	"grades" : [
+		{
+			"date" : ISODate("2014-11-12T00:00:00Z"),
+			"grade" : "A",
+			"score" : 12
+		}
+	],
+	"name" : "Sammy'S Steakhouse"
+}
+{
+	"address" : {
+		"coord" : [
+			104.9179596,
+			11.5415182
+		]
+	},
+	"grades" : [
+		{
+			"date" : ISODate("2014-09-25T00:00:00Z"),
+			"grade" : "A",
+			"score" : 9
+		}
+	],
+	"name" : "Starbucks Coffee"
+}
+{
+	"address" : {
+		"coord" : [
+			100.6294417,
+			13.7440888
+		]
+	},
+	"grades" : [
+		{
+			"date" : ISODate("2014-07-02T00:00:00Z"),
+			"grade" : "A",
+			"score" : 8
+		}
+	],
+	"name" : "The Taco Truck"
+}
+{
+	"address" : {
+		"coord" : [
+			104.9179596,
+			11.5415182
+		]
+	},
+	"grades" : [
+		{
+			"date" : ISODate("2013-10-22T00:00:00Z"),
+			"grade" : "A",
+			"score" : 10
+		}
+	],
+	"name" : "Todd English Bonfire"
+}
+{ "acknowledged" : true, "matchedCount" : 12, "modifiedCount" : 12 }
+{
+	"grades" : [
+		{
+			"date" : ISODate("2014-09-05T00:00:00Z"),
+			"grade" : "B",
+			"score" : 9
+		},
+		{
+			"date" : ISODate("2013-09-16T00:00:00Z"),
+			"grade" : "A",
+			"score" : 12
+		},
+		{
+			"date" : ISODate("2013-05-03T00:00:00Z"),
+			"grade" : "B",
+			"score" : 8
+		},
+		{
+			"date" : ISODate("2012-05-01T00:00:00Z"),
+			"grade" : "B",
+			"score" : 5
+		}
+	],
+	"restaurant_id" : "41443646"
+}
+true
+bye
