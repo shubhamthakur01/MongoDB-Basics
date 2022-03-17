@@ -15,9 +15,7 @@ new_restaurant = {
     "restaurant_id" : "000001"
 }
 
-
 use msds697
-// Make sure to keep the above lines at the beginning  ////
 ///////////////////////////////////////////////////////////
 
 //Q1//
@@ -36,6 +34,5 @@ db.business.updateMany({}, {$rename:{"borough": "district"}})
 db.business.find({"address.coord":[-73.871194, 40.6730975] },{"_id":false}).pretty()
 
 ///////////////////////////////////////////////////////////
-// Make sure to keep the following line at the end    /////
 db.business.drop()
 ///////////////////////////////////////////////////////////
